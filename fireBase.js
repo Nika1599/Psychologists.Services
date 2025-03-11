@@ -3,9 +3,9 @@ import { getAuth } from "firebase/auth";
 import { getDatabase } from "firebase/database";
 
 const firebaseConfig = {
-  apiKey: process.env.REACT_APP_FIREBASE_API_KEY,
-  authDomain: process.env.REACT_APP_FIREBASE_AUTH_DOMAIN,
-  databaseURL: process.env.REACT_APP_FIREBASE_DATABASE_URL,
+  apiKey: "AIzaSyA5 - My5DrGguTn2wUQ5eLT_YQ8fGXspxTM",
+  authDomain: "psychologists - c4f9c.firebaseapp.com",
+  databaseURL: "https://psychologists-c4f9c-default-rtdb.firebaseio.com",
 };
 
 const app = initializeApp(firebaseConfig);
