@@ -1,6 +1,6 @@
 import css from "./PsychologistCard.module.css";
 
-const PsychologistCard = ({ psychologist, onFavouriteClick, isFavourite }) => {
+const PsychologistCard = ({ psychologist, onFavoriteClick, isFavorite }) => {
   return (
     <div className={css.card}>
       <p>Psychologist</p>
@@ -10,8 +10,8 @@ const PsychologistCard = ({ psychologist, onFavouriteClick, isFavourite }) => {
       <p>Rating:{psychologist.rating}</p>
       <p>Price / 1 hour:{psychologist.price_per_hour} </p>
       <button
-        className={isFavourite ? css.favoriteActive : css.favorite}
-        onClick={() => onFavouriteClick(psychologist)}
+        className={isFavorite ? css.favoriteActive : css.favorite}
+        onClick={() => onFavoriteClick(psychologist)}
       >
         ❤️
       </button>

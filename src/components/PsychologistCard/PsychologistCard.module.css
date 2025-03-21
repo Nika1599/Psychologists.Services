@@ -1,0 +1,14 @@
+.favorite {
+  background: white;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.favoriteActive {
+  background: grey;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+  color: white;
+}
